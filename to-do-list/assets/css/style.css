@@ -23,14 +23,14 @@ body{
     padding: 30px 40px;
 }
 
-.newtask{
+#newtask{
     position: relative;
     background-color: #0e0e0e;
     padding: 30px 20px;
     border-radius: 7px;
 }
 
-.newtask input{
+#newtask input{
     width: 70%;
     height: 45px;
     padding: 12px;
@@ -39,12 +39,12 @@ body{
     border-radius: 5px;
 }
 
-.newtask input:focus{
+#newtask input:focus{
     outline: none;
     border-color: #00e0fd;
 }
 
-.newtask button{
+#newtask button{
     position: relative;
     float: right;
     width: 20%;
@@ -55,11 +55,44 @@ body{
     cursor: pointer;
 }
 
-.task{
+#tasks{
     background-color: #0e0e0e;
     padding: 30px 20px;
     margin-top: 60px;
     border-radius: 7px;
     width: 100%;
     position: relative;
+    color: #ffff;
+}
+
+.task{
+    background-color: #0e0e0e;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #d1d3d4;
+    cursor: pointer;
+}
+
+.task span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.task button{
+    background-color: #38e8ff;
+    color: #ffffff;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.completed{
+    text-decoration: line-through;
 }
