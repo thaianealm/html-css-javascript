@@ -7,6 +7,7 @@ Utilizando conceitos do DOM  (Document Object Model) desenvolvi um site que muda
 - CSS3
 - JavaScript
 
+## Demonstração
 <img src="assets/img/demo-img.png">
 
-Demonstração em vídeo: https://youtu.be/hdNasRXiGRA
+<b>Demonstração em vídeo:</b> https://youtu.be/hdNasRXiGRA
