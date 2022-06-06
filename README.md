@@ -14,3 +14,8 @@ Link do repositório: https://github.com/thaianealm/html-css-javascript/tree/mai
 ### 🔵 To do list
 
 Link do repositório: https://github.com/thaianealm/html-css-javascript/tree/main/to-do-list
+
+### 🔵 Counter
+
+Link do repositório: https://github.com/thaianealm/html-css-javascript/tree/main/counter <br/> <br/>
+Demonstração em vídeo: https://youtu.be/lrEVLte8Y9k
