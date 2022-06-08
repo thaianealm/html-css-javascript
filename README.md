@@ -19,3 +19,7 @@ Link do repositório: https://github.com/thaianealm/html-css-javascript/tree/mai
 
 Link do repositório: https://github.com/thaianealm/html-css-javascript/tree/main/counter <br/> <br/>
 Demonstração em vídeo: https://youtu.be/lrEVLte8Y9k
+
+### 🔵 Mini calendar
+
+Link do repositório: https://github.com/thaianealm/html-css-javascript/tree/main/mini-calendar <br/> <br/>
