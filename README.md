@@ -23,3 +23,8 @@ Demonstração em vídeo: https://youtu.be/lrEVLte8Y9k
 ### 🔵 Mini calendar
 
 Link do repositório: https://github.com/thaianealm/html-css-javascript/tree/main/mini-calendar <br/> <br/>
+
+### 🔵 Instagram login page
+
+Link do repositório: https://github.com/thaianealm/html-css-javascript/tree/main/instagram-login-page <br/> <br/>
+Demonstração em vídeo: https://youtu.be/toHQNhjgfPg
