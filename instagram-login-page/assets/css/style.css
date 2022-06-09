@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #181818;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 1%;
+    margin-left: 3%;
+    background-color: #fafafa
+}
+
+.phones{
+    flex: 40%;
+    margin-top: 1%;
+    background-color: #fafafa;
+}
+
+.phones-img{
+    padding-left: 38%;
+}
+
+.login{
+    flex: 40%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.instagram-img{
+    display: flex;
+    justify-content: center;
+    width: 22rem;
+    margin-top: 14%;
+    margin-bottom: 10%;
+}
+
+.login form{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 22rem;
+    border-radius: 2px;
+    border: 1px solid #dadada;
+    background-color: #ffffff;
+    height: 25rem;
+}
+
+.login input{
+    padding: 10px;
+    width: 17rem;
+    margin: 1%;
+    border: 1px solid #d4d4d4;
+    border-radius: 3px;
+    background-color: #fafafa;
+}
+
+.login input::placeholder{
+    color: #a1a1a1;
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+button{
+    padding: 5px;
+    width: 17rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color: #b2dffc;
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+    font-weight: 700;
+    margin-top: 3%;
+}
+
+/*OR*/
+.or{
+    margin-top: 6%;
+}
+
+.or p{
+    font-weight: 600;
+    font-size: 13px;
+    color: #7e7e7e;
+}
+/*Login Facebbok*/
+.login-facebook{
+    margin-top: 6%;
+}
+
+.login-facebook p{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 13px;
+    color: #464e74;
+    cursor: pointer;
+}
+
+.logo-facebook{
+    width: 17px;
+}
+
+/*Forgot password*/
+.forgot-password{
+    margin-top: 6%;
+    font-size: 10pt;
+    color: #464e74;
+}
+
+/*Create an account*/
+.create-an-account{
+    text-align: center;
+    width: 22rem;
+    height: 4rem;
+    margin-top: 2%;
+    border: 1px solid #dadada;
+    background-color: #ffff;
+}
+
+.create-an-account p{
+    font-size: 11pt;
+    margin: 7%;
+}
+
+.create-an-account a{
+    text-decoration: none;
+    color: #0077ff;
+    font-weight: 500;
+}
+
+/*Download App*/
+.download-app{
+    width: 22rem;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.app-store-img{
+    width: 11rem;
+    cursor: pointer;
+}
+
+.google-play-img{
+    width: 9rem;
+    margin-bottom: 11px;
+    cursor: pointer;
+}
+
+/*Footer*/
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 19vh;
+    margin-top: 5%;
+}
+
+footer p{
+    text-align: center;
+    font-size: 10pt;
+    color: #949494;
+    line-height: 30px;
+    word-spacing: 5px;
+}
