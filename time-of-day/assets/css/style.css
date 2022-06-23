@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 5%;
+}
+
+header #title{
+    margin-bottom: 15%;
+}
+
+section{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80vh;
+    height: 50vh;
+    border-radius: 8px;
+    background-color: rgb(245, 245, 245);
+}
+
+section #msg{
+    margin: 3%;
+    font-size: 16pt;
+}
+
+section #img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+footer{
+    margin-top: 5%;
+    font-style: italic;
+}
+
+/*changes*/
+
+.morning{
+    background-color: #ffdbc6;
+}
+
+.morning a{
+    color: #000;
+}
+
+.afternoon{
+    color: #ffff;
+    background-color: #088997;
+}
+
+.afternoon #msg{
+    color: #000;
+}
+
+.afternoon a{
+    color: #eeeeee;
+}
+
+.night{
+    color: #f5f5f5;
+    background-color: rgb(16, 16, 22);
+}
+
+.night #msg{
+    color: #000;
+}
+
+.night a{
+    color: #eeeeee;
+}
+
+/*Media queries*/
+
+@media only screen and (max-width : 575px) {
+    section{
+        width: 70vh;
+    }
+}
+
+@media only screen and (max-width : 503px) {
+    section{
+        width: 50vh;
+    }
+}
+
+@media only screen and (max-width : 370px) {
+    section{
+        width: 45vh;
+    }
+
+    section #msg{
+        margin-bottom: 5%;
+        font-size: 15pt;
+    }
+
+    div #img{
+        width: 200px;
+        height: 200px;
+    }
+}
