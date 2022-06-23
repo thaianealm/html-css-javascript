@@ -28,3 +28,7 @@ Link do repositório: https://github.com/thaianealm/html-css-javascript/tree/mai
 
 Link do repositório: https://github.com/thaianealm/html-css-javascript/tree/main/instagram-login-page <br/> <br/>
 Demonstração em vídeo: https://youtu.be/toHQNhjgfPg
+
+### 🔵 Time of day
+
+Link do repositório: https://github.com/thaianealm/html-css-javascript/tree/main/time-of-day <br/> <br/>
